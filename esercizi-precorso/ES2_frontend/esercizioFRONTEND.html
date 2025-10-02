@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrazione app di musica streaming</title>
+</head>
+
+<body>
+
+    <form onsubmit="alert('form inviato correttamente')">
+        <h1>Registrazione utente</h1>
+
+        <div>
+            <input type="text" placeholder="Il tuo nome" required><br><br>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Il tuo cognome" required><br><br>
+        </div>
+
+        <div>
+            <input type="email" placeholder="Il tuo indirizzo mail" required><br><br>
+        </div>
+
+        <div>
+            <input type="password" placeholder="La tua password" required><br>
+        </div>
+        
+        <div>
+            <p>Seleziona la tua data di nascita:</p>
+            <input type="date" id="dataNascita" name="dataNascita" required><br><br>
+        </div>
+
+        <div>
+            <input type="number" placeholder="Il tuo numero di telefono" required><br>
+        </div>
+
+        <div>
+            <p>Seleziona i tuoi gusti musicali:</p>
+            <input type="checkbox" name="musica" value="rock"> Rap<br>
+            <input type="checkbox" name="musica" value="rock"> Rock<br>
+            <input type="checkbox" name="musica" value="pop"> Metal<br>
+            <input type="checkbox" name="musica" value="jazz"> Jazz<br>
+            <input type="checkbox" name="musica" value="classica"> Classica<br>
+        </div>
+
+        <div>
+            <p>Accetti i termini e le condizioni?</p>
+            <input type="radio" name="termini" value="si" required> Sì<br>
+            <input type="radio" name="termini" value="no"> No<br><br>
+        </div>
+
+        <div>
+            <button type="submit">Invia registrazione</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
