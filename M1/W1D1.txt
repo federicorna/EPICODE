@@ -1,0 +1,6 @@
+ATTRIBUTO	STATO			AZIONE
+1-hp		10 (min0/max10)		attacco: infligge 2 danni x 3 mana, termina turno
+2-attacco	2 (min0/max10)		attacco pesante: infligge 4 danni x 6 mana, termina turno
+3-movimento	0 (min1/max6)		cura: cura di 3, termina turno, passa il turno successivo
+4-mana		10 (min0/max10)		concentrazione: conferisce 3 mana, possibile attaccare o muoversi
+5-turno		si/no			movimento: lancia il dado per muoversi o eventi, possibile attaccare
